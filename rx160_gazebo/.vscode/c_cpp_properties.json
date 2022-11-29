@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/javo16/Documents/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/javo16/Documents/industrial_robot_ws/src/abb_driver/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/gazebo-pkgs/gazebo_grasp_plugin/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/gazebo-pkgs/gazebo_state_plugins/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/gazebo-pkgs/gazebo_test_tools/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/gazebo-pkgs/gazebo_version_helpers/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/gazebo-pkgs/gazebo_world_plugin_loader/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/ros_controllers/gripper_action_controller/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/icl_phri_ur5/icl_phri_robotiq_control/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/icl_phri_ur5/icl_phri_ur5_control/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/ur5_with_robotiq_gripper/icl_robotiq_2f_gripper_action_server/include/**",
+        "/home/javo16/Documents/catkin_ws/src/IRB120_MY/IRB120-ABB/irb120_vrep/include/**",
+        "/home/javo16/Documents/industrial_robot_ws/src/IRB2600-ABB/irb2600_description/include/**",
+        "/home/javo16/Documents/industrial_robot_ws/src/IRB2600-ABB/irb2600_gazebo/include/**",
+        "/home/javo16/Documents/industrial_robot_ws/src/IRB2600-ABB/irb2600_master/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/general-message-pkgs/object_msgs_tools/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/roboticsgroup_gazebo_plugins/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/robotiq/robotiq_2f_gripper_action_server/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/robotiq/robotiq_2f_gripper_control/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/robotiq/robotiq_ethercat/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/robotiq/robotiq_ft_sensor/include/**",
+        "/home/javo16/Documents/catkin_ws/src/Staubli/staubli/staubli_master/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/universal_robot/ur_kinematics/include/**",
+        "/home/javo16/Documents/catkin_ws/src/pick-and-place-with-icl-ur5-robotiq-gripper/urdf_geometry_parser/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

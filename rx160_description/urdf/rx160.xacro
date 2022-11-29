@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<robot name="staubli_rx160" xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:include filename="$(find rx160_description)/urdf/rx160_macro.xacro"/>
+  <xacro:staubli_rx160 prefix=""/>
+  <link name="world"/>
+  
+  <joint name="fixed" type="fixed">
+      <parent link="world"/>
+      <child link="base_link"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+  
+  <xacro:include filename="$(find rx160_description)/urdf/gripper_2f.xacro"/>
+</robot>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<robot name="gripper" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find robotiq_2f_85_description)/urdf/robotiq_2F_85.xacro"/>
+
+  <xacro:property name="PI" value="3.1415926535897931"/>
+
+  <joint name="staubli_joint_gripper_support" type="fixed">
+    <parent link="tool0"/>
+    <child link="coupling_link"/>
+    <origin rpy="0 0 0" xyz="0 0 -0.003"/>
+  </joint>
+  
+  <!-- end effect point -->
+  <joint name="end_effect_point" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0.15"/>
+    <parent link="coupling_link"/>
+    <child link="end_effect_point"/>
+  </joint>
+  <!-- end effect point -->
+  <link name="end_effect_point">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 -0.1"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.8 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 -0.1"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.8 0.0 0.0 1.0"/>
+      </material>
+    </collision>
+    <inertial>
+            <mass value="0.1" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+        </inertial>
+  </link>
+
+</robot>

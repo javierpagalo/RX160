@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: rx160_gazebo
+    relative_path: urdf/rx160_2f.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/staubli_rx160_gazebo.srdf
+  CONFIG:
+    author_name: javierpagalo
+    author_email: javierpagalo@gmail.com
+    generated_timestamp: 1669692590
