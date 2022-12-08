@@ -34,6 +34,15 @@ To use grippers with this robot. You need clone:
             <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
         </inertial>
    ```
+   Also, you need to add a scale at the line 20 in robotiq_2F_85.xacro since collision would crash Gazebo
+   ```
+   <mesh filename="package://robotiq_2f_85_description/meshes/visual/robotiq_gripper_coupling.stl" /> scale="0.001 0.001 0.001"
+   ```
+   And, you need to change the line 14 in robotiq_arg2f.xacro
+   ```
+   <mesh filename="package://robotiq_2f_85_description/meshes/collision/robotiq_arg2f_base_link.stl" />
+   ```
+   
 2. The gripper gazebo plugins compilation https://github.com/javierpagalo/Gazebo_utils.git
 
 Now, Extract the metapackage `RX160` into `${ros_workspace}/src`. `catkin_make` your workspace.
