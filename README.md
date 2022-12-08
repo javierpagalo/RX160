@@ -44,6 +44,9 @@ To use grippers with this robot. You need clone:
    ```
    
 2. The gripper gazebo plugins compilation https://github.com/javierpagalo/Gazebo_utils.git
+   ```
+   sudo apt-get install ros-<distro>-object-recognition-msgs
+   ```
 
 Now, Extract the metapackage `RX160` into `${ros_workspace}/src`. `catkin_make` your workspace.
 
